@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body {
+background-color: rgb(134, 13, 13);
+
+}
+
+.container {
+max-width: 75rem;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding: 1rem;
+}
+
+
+#pageheader {
+background-color: rgb(82, 0, 0);
+min-height: auto;
+padding: .25rem;
+}
+
+#logo {
+background-image: url(Images/Logo.png);
+width: 6.25rem;
+height: 6.25rem;
+border: 1px solid none;
+background-size: contain;
+background-repeat: repeat;
+}
+
+#pageheader .container {
+min-height: auto;
+}
+#pageheader nav{
+    text-align: center;
+}
+
+
+#media {
+background-color: lightblue;
+min-height: 10rem;
+padding: 1rem;
+background-image: url(Images/logo.jpg);
+background-size: cover;
+aspect-ratio: 16 / 9;
+background-repeat: contain;
+background-repeat: no-repeat;
+}
+
+#career {
+background-color: rgb(175, 14, 14);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagecontent {
+background-color: rgb(146, 13, 6);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester1 {
+background-color: rgb(137, 7, 7);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester2 {
+background-color: rgb(119, 36, 24);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagefooter {
+background-color: rgb(156, 33, 33);
+min-height: auto;
+padding: 1rem;
+}
+#pagefooter .container{
+    background-color: rgb(100, 15, 15);
+    min-height: auto;
+    text-align: center;
+}
+
+#subfooter {
+background-color: rgb(99, 23, 23);
+min-height: 10rem;
+padding: 1rem;
+text-align: center;
+}
+
+audio {
+border: 5px solid rgb(0, 0, 0);
+background-color: rgb(72, 10, 10);
+display: block;
+margin: auto;
+}
