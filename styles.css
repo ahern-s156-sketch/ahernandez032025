@@ -82,6 +82,19 @@ background-color: rgb(156, 33, 33);
 min-height: auto;
 padding: 1rem;
 }
+
+
+#aifooter{
+    padding: 1rem;
+    background-color: seagreen;
+    min-height: auto;
+}
+
+#aifooter.container {
+    min-height: auto;
+text-align: center;}
+
+
 #pagefooter .container{
     background-color: rgb(100, 15, 15);
     min-height: auto;
