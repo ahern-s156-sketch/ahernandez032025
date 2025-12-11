@@ -114,3 +114,18 @@ background-color: rgb(72, 10, 10);
 display: block;
 margin: auto;
 }
+
+@media screen and (min-width:650px) {
+
+    #pagecontent {background-color: blue;}
+}
+
+@media screen and (min-width:1000px) {
+
+    #pagecontent {background-color: yellow;}
+
+}
+
+
+
+            
