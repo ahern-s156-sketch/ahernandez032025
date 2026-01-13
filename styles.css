@@ -30,8 +30,8 @@ background-image: url(Images/Logo.png);
 width: 6.25rem;
 height: 6.25rem;
 border: 1px solid none;
-background-size: contain;
-background-repeat: repeat;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 #pageheader .container {
@@ -39,7 +39,30 @@ min-height: auto;
 }
 #pageheader nav{
     text-align: center;
+    
 }
+
+#pageheader nav ul 
+{
+    background-color: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pageheader nav ul li{
+    border: 2px solid gold;
+    padding: 1rem;
+    margin: 2px;
+    background-color: silver;
+}
+
+#pageheader nav ul li:hover{
+    background-color: aliceblue;
+}
+
+
+
 
 
 #media {
@@ -64,15 +87,34 @@ background-color: rgb(146, 13, 6);
 min-height: 10rem;
 padding: 1rem;
 }
+blockquote{
+    background-color: none;
+    padding: 1rem;
+    width: 50%;
+        margin: 0 auto;
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: steelblue;
+}
+blockquote + span
+{
+    background-color: none;
+    padding: 1rem;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 1.25rem;
+}
 
 #semester1 {
-background-color: rgb(137, 7, 7);
+background-color: rgb(0, 0, 0);
 min-height: 10rem;
 padding: 1rem;
 }
 
 #semester2 {
-background-color: rgb(119, 36, 24);
+background-color: rgb(209, 191, 32);
 min-height: 10rem;
 padding: 1rem;
 }
@@ -115,9 +157,17 @@ display: block;
 margin: auto;
 }
 
-@media screen and (min-width:650px) {
-
-    #pagecontent {background-color: blue;}
+@media screen and (min-width:600px) {
+    #pageheader nav ul{
+        margin-top: 2rem;
+    }
+    #pageheader nav ul li{
+        display: inline-block;
+    }
+    
+    #pagecontent {
+        background-color: blue;
+    }
 }
 
 @media screen and (min-width:1000px) {
