@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexis Hernandez</title>
+    <meta
+      name="description"
+      content="Alexis Hernandez - Web Design Student Portfolio"
+    />
+    <meta name="author" content="Alexis Hernandez" />
+    <title>Alexis Hernandez | Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -11,19 +16,19 @@
     <!-- Begin Header -->
     <header id="pageheader">
       <div class="container">
-        <a href="https://https://elmongol0.netlify.app//"
-          ><div id="logo"></div
-        ></a>
+        <a href="https://elmongol0.netlify.app/" id="logo-link">
+          <div id="logo" aria-label="Home"></div>
+        </a>
 
         <nav id="topnav">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#career">Career/</a></li>
-            <li><a href="#semester1">Semester1/</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#semester1">Semester 1</a></li>
             <li><a href="#semester2">Semester 2</a></li>
-            <li><a href="#aifooter">Ai tools</a></li>
-            <li><a href="worksamples.html">Work Samples/</a></li>
-            <li><a href="certificates.html">Certificates/</a></li>
+            <li><a href="#aifooter">AI Tools</a></li>
+            <li><a href="worksamples.html">Work Samples</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
           </ul>
         </nav>
@@ -31,142 +36,174 @@
     </header>
     <!-- End Header -->
 
-    <!-- begin Media -->
+    <!-- Begin Media Hero Section -->
     <section id="media">
-      <blockquote>&quot;Quieres dinero? Ve por el&quot;</blockquote>
+      <div class="hero-overlay">
+        <blockquote>&quot;Quieres dinero? Ve por el&quot;</blockquote>
+        <cite>- Leon S. Kennedy</cite>
+      </div>
     </section>
     <!-- End Media -->
 
-    <!-- Begin PageContent -->
+    <!-- Begin PageContent (About Me) -->
     <main id="pagecontent">
       <div class="container">
-        <h1>Alexis Hernandez</h1>
-        <h2>Portfolio</h2>
-        <blockquote>
-          &quot;I don't have to show anything to anyone&quot;
-        </blockquote>
+        <div class="profile-section">
+          <div class="profile-text">
+            <h1>Alexis Hernandez</h1>
+            <h2>Web Design Student & Aspiring Game Developer</h2>
+            <div class="divider"></div>
+            <p>
+              Hello! Welcome to my webpage. My name is Alexis and I live in
+              Huron, but I study at <strong>Coalinga High School</strong>. I'm
+              currently a junior. One of my favorite subjects is
+              <strong>webpage design</strong>.
+            </p>
+            <p>
+              My hobbies include playing soccer and video games. One of my
+              all-time favorites is <em>The Walking Dead: Telltale Series</em> —
+              a zombie game where your decisions shape the story. I'm currently
+              rewatching the whole series and I'm on Season 3.
+            </p>
+            <p>
+              The team I support is <strong>Real Madrid</strong>. Last year was
+              tough — we lost all competitions and four El Clásicos in a row
+              against Barcelona. But Hala Madrid, we'll be back.
+            </p>
+            <div class="grades">
+              <h3>Current Grades</h3>
+              <div class="grade-list">
+                <span class="grade A">A</span> <span>4 A's</span>
+                <span class="grade B">B</span> <span>1 B</span>
+                <span class="grade C">C</span> <span>1 C</span>
+                <span class="grade D">D</span> <span>Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <span>- Cristiano Ronaldo</span>
-        <p>
-          Hello Welcome to my webpage My name is Alexis and I live in Huron, but
-          I study in Coalinga high school. I'm a junior at this school. One of
-          my favorite subjects is webpage design. My hobbies are playing soccer
-          and also playing videogames. One of my favorite games is called the
-          walking dead telltale series. It's a game about zombies and you have
-          to make decisions to survive. The team I support is Real Madrid. Last
-          year the team didn't do great at all. We lost all of the competitions
-          and we lost four El Clasico in a row against Barcelona. Right now I am
-          rewatching the whole Walking Dead series I started a couple of days
-          ago. I am currently in season 3. This year my grades are kinda decent
-          I guess. I have four A’s, one B, one C, and my worst grade is science
-          which I have a D in that class.
-        </p>
+        <div class="quote-card">
+          <blockquote>
+            &quot;I don't have to show anything to anyone&quot;
+          </blockquote>
+          <span>- Cristiano Ronaldo</span>
+        </div>
       </div>
     </main>
     <!-- End pagecontent -->
 
-    <!-- Begin Career -->
+    <!-- Begin Career Section -->
     <section id="career">
       <div class="container">
-        <h2>Career</h2>
-        <ul>
-          <li>
-            <a href="Carrer/Carrer Action Plan.pdf">Career Action Plan</a>
-          </li>
-          <li><a href="Carrer/job_application.pdf">Job Application</a></li>
-          <li>Letter of Introduction</li>
-          <li>References</li>
-          <li>Resume</li>
-          <li>Letter of Recommendation</li>
-        </ul>
+        <h2 class="section-title">📁 Career Portfolio</h2>
+        <div class="card-grid">
+          <a href="Carrer/Carrer%20Action%20Plan.pdf" class="card-link">
+            <div class="card">📄 Career Action Plan</div>
+          </a>
+          <a href="Carrer/job_application.pdf" class="card-link">
+            <div class="card">📝 Job Application</div>
+          </a>
+          <div class="card disabled">✉️ Letter of Introduction</div>
+          <div class="card disabled">👥 References</div>
+          <div class="card disabled">📑 Resume</div>
+          <div class="card disabled">⭐ Letter of Recommendation</div>
+        </div>
       </div>
     </section>
     <!-- End Career -->
-    <!-- Begin semester1 -->
+
+    <!-- Begin Semester 1 -->
     <section id="semester1">
       <div class="container">
-        <h2>Semester 1</h2>
-        <ul>
-          <a href="poster/Untitled-2.psd"><li>Contract Poster</li></a>
-          <a href="Demos/desktopWallpaper.psd"><li>Desktop Wallpaper</li></a>
-          <a href="Images/Logo.png"></a>
-          <li>AI Portfolio logo</li>
-          <li>Masked Image</li>
-          <li>Terminal Notes</li>
-        </ul>
+        <h2 class="section-title">📚 Semester 1 Projects</h2>
+        <div class="card-grid">
+          <a href="poster/Untitled-2.psd" class="card-link">
+            <div class="card">🎨 Contract Poster</div>
+          </a>
+          <a href="Demos/desktopWallpaper.psd" class="card-link">
+            <div class="card">🖥️ Desktop Wallpaper</div>
+          </a>
+          <div class="card">🤖 AI Portfolio Logo</div>
+          <div class="card">🎭 Masked Image</div>
+          <div class="card">💻 Terminal Notes</div>
+        </div>
       </div>
     </section>
-    <!-- End semester1 -->
+    <!-- End Semester 1 -->
 
-    <!-- Begin semester2 -->
-
+    <!-- Begin Semester 2 -->
     <section id="semester2">
       <div class="container">
-        <h2>semester2</h2>
-        <ul>
-          <li>
-            <a href="Demos/Flexbox001/flexbox_justify_content.html"
-              >FlexboxJC1</a
-            >
-          </li>
-          <li>
-            <a href="Demos/Flexbox001/flexbox_justify_content_application.html"
-              >FlexboxJC2</a
-            >
-          </li>
-          <li>
-            <a href="semester2/FlexboxJC3A/flexboxjc3a.html">FlexboxJC3A</a>
-          </li>
-          <li>
-            <a href="semester2/FlexboxJC3B/flexboxjc3b.html">FlexboxJC3B</a>
-          </li>
-          <li>
-            <a href="Demos/Flexbox005/flexbox_align_self_order.html"
-              >FlexboxASO</a
-            >
-          </li>
-          <li>
-            <a href="semester2/photogallery/photogallery.html">Photo Gallery</a>
-          </li>
-          <li>
-            <a href="semester2/FIxedMenu/fixed_menu.html">Fixed Menu</a>
-          </li>
-          <li>
-            <a href="semester2/HeroImage/hero_image.html">Hero Image</a>
-          </li>
-        </ul>
+        <h2 class="section-title">🚀 Semester 2 Projects</h2>
+        <div class="card-grid">
+          <a
+            href="Demos/Flexbox001/flexbox_justify_content.html"
+            class="card-link"
+          >
+            <div class="card">📐 Flexbox JC1</div>
+          </a>
+          <a
+            href="Demos/Flexbox001/flexbox_justify_content_application.html"
+            class="card-link"
+          >
+            <div class="card">📐 Flexbox JC2</div>
+          </a>
+          <a href="semester2/FlexboxJC3A/flexboxjc3a.html" class="card-link">
+            <div class="card">📐 Flexbox JC3A</div>
+          </a>
+          <a href="semester2/FlexboxJC3B/flexboxjc3b.html" class="card-link">
+            <div class="card">📐 Flexbox JC3B</div>
+          </a>
+          <a
+            href="Demos/Flexbox005/flexbox_align_self_order.html"
+            class="card-link"
+          >
+            <div class="card">📐 Flexbox ASO</div>
+          </a>
+          <a href="semester2/photogallery/photogallery.html" class="card-link">
+            <div class="card">📸 Photo Gallery</div>
+          </a>
+          <a href="semester2/FIxedMenu/fixed_menu.html" class="card-link">
+            <div class="card">📌 Fixed Menu</div>
+          </a>
+          <a href="semester2/HeroImage/hero_image.html" class="card-link">
+            <div class="card">🖼️ Hero Image</div>
+          </a>
+        </div>
       </div>
     </section>
-    <!-- End semester2 -->
+    <!-- End Semester 2 -->
 
     <!-- Begin Footer -->
-    <section id="pagefooter">
+    <footer id="pagefooter">
       <div class="container">
-        <nav>
-          <a href="http://chs.chusd.org/">CHS</a>|
-          <a href="https://www.adobe.com/home">Color Harmonies</a>|
-          <a href="https://coalingahuron.aeries.net/">Aeries</a>|
-          <a href="https://classroom.google.com/">Classroom</a>|
-          <a href="https://minga.io/">Minga</a>| <a href="">Terminal</a>|
-          <a href="GitAndGitHub/git.html">Git</a>|
+        <nav class="footer-nav">
+          <a href="http://chs.chusd.org/">CHS</a>
+          <a href="https://www.adobe.com/home">Color Harmonies</a>
+          <a href="https://coalingahuron.aeries.net/">Aeries</a>
+          <a href="https://classroom.google.com/">Classroom</a>
+          <a href="https://minga.io/">Minga</a>
+          <a href="#">Terminal</a>
+          <a href="GitAndGitHub/git.html">Git</a>
         </nav>
       </div>
-    </section>
+    </footer>
     <!-- End Footer -->
 
-    <!-- Begin AI footer -->
+    <!-- Begin AI Tools Footer -->
     <section id="aifooter">
       <div class="container">
-        <nav>
-          <a href="https://firefly.adobe.com/">Firefly</a> |
-          <a href="https://suno.com/home">Sonu</a> |
-          <a href="https://chatgpt.com/">Chatgpt</a> |
-          <a href="https://gemini.google.com/">Gemini</a> |
-          <a href="https://copilot.microsoft.com/">Copilot</a> |
-          <a href="https://claude.ai/">Claude</a> |
-          <a href="https://www.perplexity.ai/">Perplexity</a> |
-          <a href="https://notebooklm.google/">NotebookLM</a> |
-          <a href="https://github.com/">Github</a> |
+        <h3>🤖 AI Tools I Use</h3>
+        <nav class="ai-nav">
+          <a href="https://firefly.adobe.com/">Firefly</a>
+          <a href="https://suno.com/home">Suno</a>
+          <a href="https://chatgpt.com/">ChatGPT</a>
+          <a href="https://gemini.google.com/">Gemini</a>
+          <a href="https://copilot.microsoft.com/">Copilot</a>
+          <a href="https://claude.ai/">Claude</a>
+          <a href="https://www.perplexity.ai/">Perplexity</a>
+          <a href="https://notebooklm.google/">NotebookLM</a>
+          <a href="https://github.com/">GitHub</a>
           <a href="https://grok.com/">Grok</a>
         </nav>
       </div>
@@ -176,19 +213,14 @@
     <!-- Begin SubFooter -->
     <section id="subfooter">
       <div class="container">
-        <p>&copy; Alexis Hernandez 2025</p>
-        <div class="audio-container"></div>
-
-        <audio
-          src="Audio/codingin308.mp3"
-          controls="controls"
-          loop="loop"
-        ></audio>
-        <!-- More Robust Audio with Backup -->
-        <!-- <audio controls>
-                <source src="Audio/codingin308.mp3" type="audio/mpeg">
-                <source src="Audio/codingin308.mp3" type="audio/ogg">
-                </audio> -->
+        <p>&copy; 2025 Alexis Hernandez. All rights reserved.</p>
+        <div class="audio-wrapper">
+          <audio controls loop>
+            <source src="Audio/codingin308.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <p class="audio-caption">🎧 Coding mix — study session vibes</p>
       </div>
     </section>
     <!-- End SubFooter -->
