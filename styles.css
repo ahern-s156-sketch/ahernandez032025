@@ -160,6 +160,24 @@ blockquote + span {
   padding: 1rem;
   border-right: 3px solid var(--accent-color);
 }
+#worksamples {
+  background-color: rgb(60, 52, 46);
+  min-height: 10rem;
+  padding: 1rem;
+  border-right: 3px solid var(--accent-color);
+}
+#certificates {
+  background-color: rgb(60, 52, 46);
+  min-height: 10rem;
+  padding: 1rem;
+  border-right: 3px solid var(--accent-color);
+}
+#certificates {
+  list-style-type: none;
+}
+#certificates {
+  color: brown;
+}
 
 #pagefooter {
   background-color: rgb(35, 32, 28);
