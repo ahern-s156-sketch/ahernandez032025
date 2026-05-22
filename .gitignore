@@ -1,3 +1,10 @@
 *.psd
 *.DS_Store
 /Poster
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
